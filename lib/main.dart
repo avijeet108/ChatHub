@@ -1,4 +1,4 @@
-import 'package:chathub/screens/loginScreen.dart';
+import 'package:chathub/Authenticate/Autheticate.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: Authenticate(),
     );
   }
 }
